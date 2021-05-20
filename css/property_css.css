@@ -1,0 +1,64 @@
+a:visited{
+    color: white;
+}
+a:active{
+    color: white;
+}
+a:hover{
+    color: rgb(202, 202, 202);
+}
+li.link_in_menu:hover{
+    cursor: pointer;
+}
+li.el_of_profile{
+    width: 238px;
+    height: 38px;
+    background-color: #222222;
+    list-style: none;
+}
+li.el_of_profile:hover{
+    background-color: #d7dadc;
+    cursor: pointer;
+}
+li.el_of_profile:hover span.el_of_profile{
+    color: black;
+}
+li.el_of_messages:hover{
+    background-color: #d7dadc;
+    cursor: pointer;
+}
+li.el_of_messages:hover span.el_of_messages{
+    color: black;
+}
+li.el_of_communities:hover{
+    background-color: #d7dadc;
+    cursor: pointer;
+}
+li.el_of_communities:hover span.el_of_communities{
+    color: black;
+}
+li.el_of_settings:hover{
+    background-color: #d7dadc;
+    cursor: pointer;
+}
+li.el_of_settings:hover span.el_of_settings{
+    color: black;
+}
+li.el_of_messages{
+    width: 238px;
+    height: 38px;
+    background-color: #222222;
+    list-style: none;
+}
+li.el_of_communities{
+    width: 238px;
+    height: 38px;
+    background-color: #222222;
+    list-style: none;
+}
+li.el_of_settings{
+    width: 238px;
+    height: 38px;
+    background-color: #222222;
+    list-style: none;
+}

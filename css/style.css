@@ -1,0 +1,112 @@
+div.block_of_header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    will-change: transform;
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #1a1a1b;
+    border-bottom: 1px solid #343536;
+    z-index: 9999;
+}
+div.block_of_menu{
+    position: relative;
+    top: 2px;
+    width: 240px;
+    height: 45px;
+    float: right;
+    margin-right: 250px;
+    margin-bottom: 5px;
+}
+span.block_of_status{
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: green;
+    list-style: none;
+}
+button.button_on_block_of_menu{
+    background-color: Transparent;
+    width: 240px;
+    height: inherit;
+    border: none;
+    overflow: hidden;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    z-index: 9999;
+}
+button.button_on_block_of_menu:hover{
+    cursor: pointer;
+
+}
+ul.block_on_menu{
+    position: relative;
+    z-index: 0;
+    top: 1;
+}
+ul.menu{
+    width: 238px;
+    height: 250px;
+    background-color: #222222;
+    margin: 0px;
+    display: none;
+    padding-left: 0px;
+    border-right: 1px solid #343536;
+    border-left: 1px solid #343536;
+    border-top: 1px solid #343536;
+    border-bottom: 1px solid #343536;
+}
+div.block_of_registration{
+    width: 250px;
+    height: 45px;
+    position: relative;
+    left: 825px;
+}
+span.name_of_profile{
+    position: relative;
+    bottom: 5px;
+    color: white;
+    font-size: 15px;
+}
+div.logo_of_profile{
+    position: absolute;
+    top: 5px;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: gray;
+}
+a.link_to_something{
+    text-decoration: none;
+    color: white;
+}
+
+.title{
+    margin-top: 5px;
+}
+span.username{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #7f7f7f;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
